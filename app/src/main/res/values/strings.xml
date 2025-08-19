@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Some courier</string>
+    <string name="action_dismiss">Отменить</string>
+    <string name="action_confirm">Подтвердить</string>
+    <string name="label_select_app">Выберите приложение</string>
+
+    <!-- order states-->
+    <string name="label_order_state_new">Новый</string>
+    <string name="label_order_state_in_progress">В работе</string>
+    <string name="label_order_state_delivered">Доставлен</string>
+    <string name="label_order_state_canceled">Отменен</string>
+
+    <!-- order paying states-->
+    <string name="label_order_paying_state_online">Оплачен онлайн</string>
+    <string name="label_order_paying_state_cash">Наличными при получении</string>
+    <string name="label_order_paying_state_card">Картой при получении</string>
+
+
+    <!-- login screen -->
+    <string name="title_login_screen">Войдите в приложение</string>
+    <string name="label_login_screen">Введите свой номер телефона</string>
+    <string name="action_login_screen_login">Войти</string>
+    <string name="action_login_screen_support">Не получается войти?</string>
+    <string name="hint_login_screen_login">Логин</string>
+    <string name="hint_login_screen_phone_number">Номер телефона</string>
+    <string name="hint_login_screen_password">Пароль</string>
+    <string name="error_login_screen_inputs">Неверный логин или пароль</string>
+    <string name="error_login_screen_phone_number">Такой номер телефона не зарегистрирован</string>
+
+    <!-- login support -->
+    <string name="title_login_support_screen">Проблемы с доступом?</string>
+    <string name="label_login_support_screen">Свяжитесь с менеджером и объясните проблему. Вам помогут войти в приложение</string>
+    <string name="action_login_support_screen_contact_manager">Позвонить менеджеру</string>
+    <string name="data_default_support_number">+79092441117</string>
+
+    <!-- drawer-->
+    <string name="label_drawer_app_version">Версия приложения %s</string>
+    <string name="label_drawer_developed">Разработано!</string>
+    <string name="label_drawer_orders">Заказы</string>
+    <string name="label_drawer_restaurant">Заведение</string>
+    <string name="label_drawer_history">История</string>
+    <string name="label_drawer_settings">Настройки</string>
+    <string name="label_drawer_logout">Выйти из аккаунта</string>
+
+    <string name="action_switch_tab_in_process_with_digit">В работе (%d)</string>
+    <string name="action_switch_tab_new_with_digit">Новые (%d)</string>
+    <string name="action_switch_tab_in_process">В работе</string>
+    <string name="action_switch_tab_new">Новые%s</string>
+
+    <!-- profile-->
+    <string name="label_profile_restaurant">Ресторан</string>
+    <string name="label_profile_unique_id">Уникальный номер</string>
+    <string name="label_profile_phone">Телефон</string>
+    <string name="title_profile_navbar">Профиль</string>
+    <string name="label_not_selected_field">Не назначено</string>
+
+    <!-- new orders screen-->
+    <string name="label_new_orders_screen_empty">Сейчас нет новых заказов</string>
+
+    <!-- orders history-->
+    <string name="title_orders_history_navbar">История заказов</string>
+    <string name="label_orders_history_empty">Нет выполненных заказов</string>
+
+    <!-- orders in process-->
+    <string name="label_orders_in_process_empty">Сейчас нет заказов в работе</string>
+    <string name="action_orders_in_process_open_route">Открыть маршрут в навигаторе</string>
+    <string name="action_orders_in_process_close_route">Вернулся в пиццерию</string>
+
+    <!-- settings-->
+    <string name="title_settings_navbar">Настройки</string>
+    <string name="action_settings_button_disabled">Включена</string>
+    <string name="action_settings_button_enabled">Включить</string>
+    <string name="title_settings_geo">Геолокация</string>
+    <string name="label_settings_geo">На устройстве</string>
+    <string name="title_settings_geo_permission">Разрешение отслеживания локации</string>
+    <string name="label_settings_geo_permission">В настройках разрешений приложения</string>
+    <string name="title_settings_push_permission">Разрешение отправки уведомлений</string>
+    <string name="label_settings_push_permission">В настройках приложения</string>
+
+    <!-- order screen-->
+    <string name="label_order_info_comment">Комментарий</string>
+    <string name="label_order_info_client">Клиент</string>
+    <string name="label_order_info_change">Сдача:</string>
+    <string name="action_order_info_get_order">Забрал заказ</string>
+    <string name="action_order_info_order_complete">Заказ доставлен</string>
+    <string name="action_order_info_call_manager">Менеджер</string>
+    <string name="action_order_info_call_client">Клиент</string>
+    <string name="label_order_info_with_issue">Есть проблема</string>
+
+    <!-- confirmation modal-->
+    <string name="title_confirmation_modal_finish_order">Завершить заказ?</string>
+    <string name="label_confirmation_modal_finish_order">Перед завершением заказа убедитесь, что оплата прошла, а клиент получил все блюда. После этого действия изменить статус заказа будет нельзя</string>
+    <string name="title_confirmation_modal_problem">Есть проблемы с заказом?</string>
+    <string name="label_confirmation_modal_problem">Чтобы присвоить заказу метку о проблемах, нужно сначала связаться с менеджером по телефону и предупредить его. Это действие нельзя отменить</string>
+    <string name="title_confirmation_modal_logout">Вы действительно хотите выйти?</string>
+    <string name="label_confirmation_modal_logout">Снова войти в приложение можно с помощью логина и пароля</string>
+    <string name="title_confirmation_modal_end_route">Закончили маршрут и\u00a0уже в пиццерии?</string>
+    <string name="label_confirmation_modal_end_route">Убедитесь, что все недоставленные заказы и\u00a0наличные деньги переданы менеджеру</string>
+    <string name="action_confirmation_modal_yes">Да</string>
+    <string name="action_confirmation_modal_no">Нет</string>
+
+    <!-- error screens-->
+    <string name="title_error_screen_no_internet">Нет подключения к Интернету</string>
+    <string name="label_error_screen_no_internet">Убедитесь, что сеть доступна,\nи попробуйте снова</string>
+    <string name="title_error_screen_unknown">Что-то пошло не так</string>
+    <string name="label_error_screen_unknown">Попробуйте обновить страницу\nили зайти позже</string>
+    <string name="action_error_screen_reload">Обновить</string>
+    <string name="error_api_unknown">Произошла ошибка при обработке ответа сервера</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="label_error">Ошибка</string>
+
+    <!-- notifications -->
+    <string name="channel_id_location_tracking">location_tracking</string>
+    <string name="channel_name_location_tracking">Отслеживание локации</string>
+    <string name="title_notification_location_tracking">Отслеживание локации</string>
+    <string name="label_notification_location_tracking">Отслеживание локации включено</string>
+    <string name="action_notification_location_tracking_stop">Остановить</string>
+
+    <string name="title_gps_disabled">Извините, не удалось определить ваше местоположение</string>
+    <string name="label_gps_disabled">Пожалуйста, убедитесь, что геолокация включена в настройках вашего устройства.</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_settings">Настройки</string>
+    
+    <string name="title_notification_route_closed_successfully">Вы завершили маршрут</string>
+    <string name="label_notification_route_closed_successfully">Ожидайте уведомления о новых заказах</string>
+
+    <string name="title_notification_order_delivered">Вы доставили заказ</string>
+    <string name="title_notification_order_with_problem">Заказ отмечен как проблемный</string>
+    <string name="label_notification_order_updated">Это отобразится в «Истории заказов»</string>
+
+    <!-- permissions -->
+    <string name="title_permissions">Похоже, у вас отключены некоторые функции</string>
+    <string name="label_permissions_description">Они необходимы для\u00a0корректной работы приложения. Пожалуйста, включите их</string>
+
+    <string name="label_permission_location_permission">Геолокация</string>
+    <string name="label_permission_location_permission_description">На устройстве</string>
+
+    <string name="label_permission_gps">Разрешение отслеживания локации</string>
+    <string name="label_permission_gps_description">В настройках разрешений приложения</string>
+
+    <string name="label_permission_notifications_permission">Разрешение отправки уведомлений</string>
+    <string name="label_permission_notifications_permission_description">В настройках приложения</string>
+
+    <string name="action_permission_enable">Включить</string>
+    <string name="action_permission_enabled">Включена</string>
+
+    <!-- push notification-->
+    <string name="default_notification_channel_id">default</string>
+    <string name="default_notification_channel_name">Другие уведомления</string>
+
+</resources>

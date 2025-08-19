@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_popup_info">Информация</string>
+    <string name="title_popup_done">Успех</string>
+    <string name="title_popup_error">Ошибка</string>
+</resources>

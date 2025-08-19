@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_title_network">Нет подключения к Интернету</string>
+    <string name="error_title_unknown">Что-то пошло не так</string>
+    <string name="error_message_network">Убедитесь в доступности сети и попробуйте снова</string>
+    <string name="error_message_unknown">Попробуйте обновить страницу или зайти позже</string>
+</resources>
